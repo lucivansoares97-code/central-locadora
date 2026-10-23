@@ -21,6 +21,8 @@ services:
         sync: false
       - key: APP_NAME
         value: Central da Locadora
+      - key: PYTHON_VERSION
+        value: "3.12.10"
 
 databases:
   - name: locadora-db
